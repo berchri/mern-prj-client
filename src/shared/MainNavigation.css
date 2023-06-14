@@ -1,0 +1,83 @@
+:root {
+    --nav-colwidth-inactive: 60px;
+    --nav-colwidth-active: 280px;
+}
+
+.col_fixed_s {
+    flex: 0 0 60px;
+    background-color: #f7f7f7;
+}
+
+
+.col_fixed_l {
+    flex: 0 0 280px;
+    background-color: #f7f7f7;
+}
+
+.nav-top {
+    height: 60px;
+}
+
+.nav-head {
+    height: 60px;
+}
+
+/* .nav-main {}
+
+.nav-item-container {} */
+
+
+.nav-item-prim,
+.nav-item-sec {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-btn {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-btn.active {
+    background-color: #EDEDED;
+}
+
+.nav-item-sec>.nav-btn {
+    /* display: block; */
+    border: 0;
+    padding-left: 40px;
+}
+
+.nav-btn>img {
+    height: 100%;
+    /* margin: 10px 10px */
+    /* margin-left: ; */
+}
+
+.nav-btn .label {
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-size: 1.25rem;
+}
+
+.nav-btn svg {
+    height: 30px;
+    width: 30px;
+}
+
+.nav-group {
+    width: 100%;
+    height: 80px;
+    vertical-align: bottom;
+}
+
+.icon {
+    display: inline-block;
+}

@@ -1,0 +1,45 @@
+.ctrlbar-btn {
+    height: 100%;
+}
+
+.icon {
+    display: block;
+    margin: 0 5px;
+}
+
+.btn {
+    height: 100%;
+    margin: 0 5px;
+    color: var(--bs-primary);
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 15px;
+    background-color: white;
+    border: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #EDEDED;
+}
+
+.btn.active {
+    background-color: #f7f7f7;
+}
+
+.btn svg,
+.toggle-creator svg {
+    height: 24px;
+    width: 24px;
+}
+
+.btn span {
+    margin: 0 5px;
+}
+
+.toggle-creator {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}

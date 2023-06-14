@@ -1,0 +1,43 @@
+.row {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.row:hover {
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+
+.row:first-child {
+    border-top: 1px solid #E8E8E8;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+}
+
+.row-section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    flex: 1 1
+}
+
+.details {
+    flex: 1 1
+}
+
+.buttons {
+    flex: 0 0 200px
+}

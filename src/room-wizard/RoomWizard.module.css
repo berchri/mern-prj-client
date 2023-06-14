@@ -1,0 +1,32 @@
+:root {
+    --controlbar-height: 60px
+}
+
+.col-left {
+    border-right: 1px solid #E8E8E8;
+}
+
+.left-topbar,
+.left-bottombar,
+.right-topbar,
+.right-bottombar {
+    height: var(--controlbar-height);
+}
+
+.left-topbar,
+.right-topbar {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.left-bottombar,
+.right-bottombar {
+    border-top: 1px solid #E8E8E8;
+}
+
+.left-main {
+    height: calc(100vh - (2 * var(--controlbar-height)));
+}
+
+.right-main {
+    height: 100vh;
+}
